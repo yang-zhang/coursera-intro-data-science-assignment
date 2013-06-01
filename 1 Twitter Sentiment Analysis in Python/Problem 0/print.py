@@ -11,4 +11,5 @@ for i in range(1,numPages+1):
     url = 'http://search.twitter.com/search.json?q=microsoft' + str(i)
     response = urllib.urlopen(url)
     data = json.load(response)
-    
+
+
